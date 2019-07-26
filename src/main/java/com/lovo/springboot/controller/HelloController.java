@@ -23,7 +23,7 @@ public class HelloController {
 
     @RequestMapping("/sayHello")
     public String sayHello(){
-        return "Hello " + person.getLastName();
+        return "Hello " + name;
 }
 
 }
